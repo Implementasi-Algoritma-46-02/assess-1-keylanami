@@ -26,10 +26,10 @@ public class Soal04 {
 		switch (kode) {
 			case "DES":
 			tunjangan = 600000;
-			if (jamSebulan >= 160) {
+			if (jamSebulan >= 160 && jamSebulan <= 174) {
 				double rumus = tunjangan + bonusLima;
 
-			} else if (jamSebulan >= 170) {
+			} else if (jamSebulan >= 175) {
 				double rumus1 = tunjangan + bonusTujuh;
 
 			} else {
@@ -40,11 +40,11 @@ public class Soal04 {
 			
 			case "PRG":
 				tunjangan = 1200000;
-				if (jamSebulan >= 160) {
+				if (jamSebulan >= 160 && jamSebulan <= 174) {
 					double rumus = tunjangan + bonusLima;
 					System.out.println(rumus);
 	
-				} else if (jamSebulan >= 170) {
+				} else if (jamSebulan >= 175) {
 					double rumus1 = tunjangan + bonusTujuh;
 					System.out.println(rumus1);
 	
@@ -57,11 +57,11 @@ public class Soal04 {
 
 			case "WRT":
 				tunjangan = 400000;
-				if (jamSebulan >= 160) {
+				if (jamSebulan >= 160 && jamSebulan <= 174) {
 					double rumus = tunjangan + bonusLima;
 					System.out.println(rumus);
 	
-				} else if (jamSebulan >= 170) {
+				} else if (jamSebulan >= 175) {
 					double rumus1 = tunjangan + bonusTujuh;
 					System.out.println(rumus1);
 	
@@ -77,7 +77,7 @@ public class Soal04 {
 					double rumus = tunjangan + bonusLima;
 					System.out.println(rumus);
 	
-				} else if (jamSebulan >= 170) {
+				} else if (jamSebulan >= 175) {
 					double rumus1 = tunjangan + bonusTujuh;
 					System.out.println(rumus1);
 	
